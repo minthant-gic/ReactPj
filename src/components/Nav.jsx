@@ -1,17 +1,19 @@
 import React from "react";
+import logo from "../images/TrollFace.png";
 
-export default function Nav(){
-    return(
-        <>
-        <div className="bg-gray-900">
-            <div className="text-white font-bold text-3xl text-left ps-4 pt-8">Fun facts about React</div>
-            <ul className='marker:text-blue-500 list-outside list-disc text-left ml-14 p-5'>
-                <li className="text-white">Was first released in 2013</li>
-                <li className="text-white">Was first released in 2013</li>
-                <li className="text-white">Was first released in 2013</li>
-                <li className="text-white">Was first released in 2013</li>  
-            </ul>
+export default function Nav() {
+  return (
+    <>
+      <div className="justify-between items-center flex bg-gradient-to-r from-purple-900 to-purple-500 ...">
+        <div className=" w-full h-20 flex">
+          <img src={logo} alt="header" className="w-17 p-5" />
+          <div className="justify-center items-center flex font-mono font-bold text-white text-2xl">
+            Meme Generator
+          </div>
         </div>
-        </>
-    )
+        <div className="text-white font-mono pr-5 text-right w-full">
+            React Course - Project 3</div>
+      </div>
+    </>
+  );
 }
