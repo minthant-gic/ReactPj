@@ -1,6 +1,12 @@
 import React from "react";
 
 export default function Card(props) {
+  // let badgeText
+  // if (props.status === 0) {
+  //   badgeText = "Sold Out"
+  // }else {
+  //    badgeText = 
+  // }
   return (
     <div>
       <div className="pt-10 ml-20 w-80 relative">
